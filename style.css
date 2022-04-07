@@ -1,0 +1,15 @@
+body {
+    margin: 0;    
+}
+
+.grid-container {
+    margin: 0;
+    max-width: 100%;
+    display: grid;
+}
+
+.square {
+    
+    aspect-ratio: 1/1;
+}
+
