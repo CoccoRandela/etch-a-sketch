@@ -29,5 +29,10 @@ document.addEventListener('click', e => {
             dropdownMenu.classList.remove('selected');
         }
     })
+})
 
+const toggleButton = document.querySelector('.toggle-button');
+toggleButton.addEventListener ('click', () =>{
+    const navbarProperties = document.querySelector('.navbar-properties');
+    navbarProperties.classList.toggle('active');
 })
